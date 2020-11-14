@@ -2,7 +2,7 @@ const readlineSync = require("readline-sync");
 
 console.log('Escape from prison!');
 
-let option = readlineSync.question('Options: dig a hole, distract gaurd');
+let option = readlineSync.question('Options: dig a hole, distract gaurd\n');
 
 function game() {
   if (option === 'dig a hole') {
